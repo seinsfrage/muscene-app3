@@ -1,0 +1,84 @@
+#sidebar-top {
+    
+    margin: 30px;
+}
+
+.col-md-8, .col-md-4 {
+height: 718px;
+color: #fff;
+overflow:hidden;
+
+}
+
+.music {
+width: 280px;   
+}
+
+p     {
+    
+    font-size: 18px;
+    color: #fff;
+}
+
+#aside {
+    text-align:center;
+}
+
+#page-content-wrapper {
+    
+background-image: url(../images/music10a.jpg);
+    
+}
+
+.search-form {
+    width:300px;
+    display: none;    
+}
+
+input[type=text], select {
+    color: #000;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    color: #000;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    color: #000;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #9A9A9A;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+

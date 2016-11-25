@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MUSIC LUVR: API Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <!-- CSS overrides for sidebar -->
+    <link href="css/simple-sidebar.css" type="text/css" rel="stylesheet">
+
+    <!-- CSS overrides for main content -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                   <div id="sidebar-top"></div>
+                    <a href="#">
+                        TEAM . . .
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Music Luvr Resources</a>
+                </li>
+                
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Our Other Apps</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- close #sidebar-wrapper -->
+
+
+        <!-- main page content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <h1>MUSIC LUVR</h1><br>
+                        <form class="search-form" action="action_page.???">
+                          <fieldset>
+                          <p>Search Music Luvr</p><br>
+                          Artist Name: &nbsp;<input type="text" placeholder=" Artist Name"><br><br>
+                          Zip Code: &nbsp;<input type="number" placeholder=" Zip Code"><br><br>
+                          Your Email: &nbsp;<input type="email" placeholder=" someone@email.com"><br><br>
+                          <input type="submit" value="Search" style="color: black"><br><br>
+                          </fieldset><br><br><br>
+                        </form>
+                        <div class="music">
+                            <p>Quisque et tortor eget velit vehicula ullamcorper. Aliquam erat volutpat. Sed eu ornare quam. Maecenas commodo faucibus nulla nec gravida. Etiam tincidunt commodo metus, a consequat magna facilisis in. Ut egestas, velit sit amet ullamcorper vestibulum, magna felis accumsan purus, id iaculis ante risus et velit. Cras tempor placerat nulla sit amet ornare. Curabitur ac fringilla libero, vel imperdiet odio.</p>
+                            <p>Donec dictum, turpis ut euismod dapibus, erat dui euismod tortor, eu sodales augue nulla sed ligula. If you're ready to find the music you love, click Initiate Search below.</p><br>
+                            
+                        </div><!-- close #music -->
+                       
+                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Initiate Search</a>
+                            <br><br>
+                            <br>
+                            <audio controls>
+                            <source src="Childish%20Gambino%20-%20Sweatpants%20ft.%20Problem.mp3" type="audio/mpeg"></source>
+                            </audio>
+                    </div><!-- close .col-md-4 -->
+
+                    <div class="col-md-8">
+                        <div id="search-results">
+                         
+                          <div id="map">
+                           <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB8VLOZC1RIYRu07KB80OwCM&key=AIzaSyBYKGkSJMwbxK-8ViOiuv7cDBsP4fMOMDs" allowfullscreen></iframe> 
+                          </div>
+                        
+                           <div id="results-list">
+                           
+                           
+                           </div>
+                            
+                        </div>
+                        
+                        
+                    </div><!-- close .col-md-8 -->
+                </div><!-- close .row -->
+            </div><!-- close .container-fluid -->
+        </div><!-- close #page-content-wrapper -->
+    </div><!-- close #wrapper -->
+
+    <!-- Bootstrap jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- API Project JavaScript -->
+    <script src="js/api.js"></script>
+
+</body>
+
+</html>
